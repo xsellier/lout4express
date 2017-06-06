@@ -406,7 +406,7 @@ dt.field-meta {
             <ul class="list-group">
                 <li class="list-group-item">
                     <dl class="parameters">
-                        {{#multipleIf this.queryParams this.payloadParams this.pathParams}}
+                        {{#multipleIf this.queryParams this.bodyParams this.pathParams}}
                         <h3>Request Parameters</h3>
                         {{/multipleIf}} {{#if this.pathParams}}
                         <dt>
@@ -434,16 +434,16 @@ dt.field-meta {
                             </ul>
                             {{/if}}
                         </dd>
-                        {{/if}} {{#if this.payloadParams}}
+                        {{/if}} {{#if this.bodyParams}}
                         <dt>
                             <h4>Payload Parameters</h4>
                         </dt>
                         <dd>
-                            {{#if this.payloadParams.isDenied}}
+                            {{#if this.bodyParams.isDenied}}
                             <h5>Denied</h5>
                             {{else}}
                             <ul class="list-unstyled">
-                                {{> type this.payloadParams}}
+                                {{> type this.bodyParams}}
                             </ul>
                             {{/if}}
                         </dd>

@@ -30,7 +30,7 @@ const routes = [{
     params: Joi.object({
       param1: Joi.string().required()
     }),
-    payload: {
+    body: {
       param1: Joi.array().items({
         param2: Joi.string()
       })
