@@ -1,0 +1,26 @@
+{
+  "name": "lout4express",
+  "description": "API documentation generator plugin for express",
+  "version": "1.0.0",
+  "repository": "git://github.com/xsellier/lout4express",
+  "main": "lib/index.js",
+  "keywords": [
+    "docs",
+    "express"
+  ],
+  "engines": {
+    "node": ">= 4.x.x",
+    "npm": ">= 3.x"
+  },
+  "dependencies": {
+    "handlebars": "4.x.x"
+  },
+  "peerDependencies": {
+    "joi": ">= 10.x.x"
+  },
+  "devDependencies": {
+    "joi": ">= 10.x.x",
+    "standard": "^10.0.2"
+  },
+  "license": "MIT"
+}
