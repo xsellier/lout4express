@@ -13,7 +13,7 @@ const Joi = require('joi')
 const app = express()
 const port = Number(process.env.PORT || 3000)
 
-const lout4express = require('../lib')
+const lout4express = require('lout4express')
 
 const routes = [{
   path: '/v1/complexArray',
