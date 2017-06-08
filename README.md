@@ -16,7 +16,7 @@ const port = Number(process.env.PORT || 3000)
 const lout4express = require('lout4express')
 
 const routes = [{
-  path: '/v1/complexArray',
+  url: '/v1/complexArray',
   method: 'post',
   validate: {
     query: Joi.object({
@@ -28,7 +28,7 @@ const routes = [{
   notes: 'test note',
   description: 'Example of a fetch route'
 },{
-  path: '/v1/example/fetch',
+  url: '/v1/example/fetch',
   method: 'post',
   validate: {
     query: Joi.object({
@@ -58,7 +58,7 @@ const routes = [{
   },
   description: 'Example of a fetch route'
 }, {
-  path: '/v1/example/fetch',
+  url: '/v1/example/fetch',
   method: 'get',
   validate: {
     query: Joi.object({
