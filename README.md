@@ -1,4 +1,4 @@
-# lout4express [![Build Status](https://travis-ci.org/xsellier/lout4express.svg?branch=master)](https://travis-ci.org/xsellier/lout4express)
+# lout4express
 
 Its [lout](https://github.com/hapijs/lout) for express
 
