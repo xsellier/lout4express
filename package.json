@@ -1,7 +1,7 @@
 {
   "name": "lout4express",
   "description": "API documentation generator plugin for express",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "repository": "https://gitlab.com/xsellier/lout4express",
   "main": "lib/index.js",
   "keywords": [
